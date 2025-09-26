@@ -1,15 +1,17 @@
-import Image from "next/image";
-import React, { JSX } from "react";
+import Image from 'next/image';
+import React, { JSX } from 'react';
 
 const Home = (): JSX.Element => {
-  const BGPicture = "/hero.png";
+  const BGPicture = '/hero.png';
 
   return (
-    <main className="
+    <main
+      className="
       h-screen
       w-screen
       relative
-    ">
+    "
+    >
       <Image
         className="
           absolute top-0
@@ -24,7 +26,8 @@ const Home = (): JSX.Element => {
         priority
       />
 
-      <div className="
+      <div
+        className="
         bg-[#00000057]
         relative
         flex
@@ -33,19 +36,18 @@ const Home = (): JSX.Element => {
         items-center
         w-screen
         h-screen
-      ">
+      "
+      >
         <section className="">
-          <h1 className="
+          <h1
+            className="
             font-sans
-            whitespace-nowrap flex items-center justify-center text-center">
+            whitespace-nowrap flex items-center justify-center text-center"
+          >
             Zero Mori
           </h1>
 
-          <div
-            className="font-mono"
-          >
-            @zer0mori
-          </div>
+          <div className="font-mono">@zer0mori</div>
         </section>
 
         <div className="">
@@ -55,7 +57,6 @@ const Home = (): JSX.Element => {
           >
             Contact
           </button>
-
         </div>
       </div>
     </main>
