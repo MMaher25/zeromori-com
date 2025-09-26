@@ -1,0 +1,9 @@
+.next
+node_modules
+build
+dist
+out
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.svg
