@@ -12,15 +12,7 @@ const Header = (): JSX.Element => {
   ];
 
   return (
-    <header
-      className="
-      absolute
-      h-[5vh]
-      flex
-      w-screen
-      justify-around
-    "
-    >
+    <header className="z-2 absolute h-[5vh] flex w-screen justify-around">
       <div
         className="
           font-sans
@@ -45,13 +37,7 @@ const Header = (): JSX.Element => {
                   hover:opacity-80
                 "
             >
-              <Image
-                src={social.src}
-                alt={social.label}
-                className="filter-white"
-                width={26}
-                height={26}
-              />
+              <Image src={social.src} alt={social.label} className="filter-white" width={26} height={26} />
             </a>
           );
         })}

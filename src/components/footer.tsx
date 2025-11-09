@@ -16,8 +16,7 @@ const Footer = () => {
     >
       <p>© {new Date().getFullYear()} Zero Mori. All rights reserved.</p>
       <p>
-        Hero image courtesy of{' '}
-        <a href="https://www.instagram.com/contrairephoto/">Contraire Photo</a>.
+        Hero image courtesy of <a href="https://www.instagram.com/contrairephoto/">Contraire Photo</a>.
       </p>
     </footer>
   );

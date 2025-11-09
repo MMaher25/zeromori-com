@@ -7,7 +7,7 @@ const Home = (): JSX.Element => {
       <Hero />
       <div
         className="
-          bg-[#00000057] relative flex flex-col
+          bg-[#00000057] relative flex flex-col z-3
           justify-around items-center w-screen h-screen
         "
       >
@@ -25,10 +25,9 @@ const Home = (): JSX.Element => {
         <section className="">
           <button
             className="
-              cursor-pointer hover:opacity-80
-              transition-opacity rounded-[50px]
-              border-[5px] border-solid border-white
-              pointer-events-none
+              cursor-pointer hover:opacity-80 transition-opacity
+              rounded-[50px] border-[5px] border-solid
+              border-white pointer-events-none
             "
             aria-label="Contact Zero"
           >

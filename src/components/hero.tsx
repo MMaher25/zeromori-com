@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <Image
-      className="absolute top-0 left-0 w-screen object-cover"
+      className="absolute top-0 left-0 w-screen object-cover z-1"
       alt=""
       src={BGPicture}
       width={1000}
