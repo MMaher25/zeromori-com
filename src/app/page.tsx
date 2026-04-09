@@ -23,16 +23,17 @@ const Home = (): JSX.Element => {
           <div className="font-mono">@zer0mori</div>
         </section>
         <section className="">
-          <button
+          <a
+            href="mailto:zero@zeromori.com"
             className="
               cursor-pointer hover:opacity-80 transition-opacity
               rounded-[50px] border-[5px] border-solid
-              border-white pointer-events-none
+              border-white px-6 py-2
             "
             aria-label="Contact Zero"
           >
             Contact
-          </button>
+          </a>
         </section>
       </div>
     </main>
